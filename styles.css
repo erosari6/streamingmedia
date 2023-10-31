@@ -70,11 +70,11 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
         top: 0;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        z-index: 1;
     }
     label span, input {
         display: none;
     }
+    
 }
 
 body {
@@ -111,8 +111,10 @@ footer p {
     text-align: center;
 }
 nav {
+    z-index: 0;
     position: absolute;
     top: 0
+    
 }
 nav ul { 
     list-style-type: none;
